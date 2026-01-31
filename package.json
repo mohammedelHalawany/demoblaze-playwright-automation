@@ -1,0 +1,33 @@
+{
+  "name": "demoblaze-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation for demoblaze.com using Page Object Model pattern with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "demoblaze",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.54.0"
+  }
+}
